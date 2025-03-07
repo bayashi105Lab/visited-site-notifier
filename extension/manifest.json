@@ -2,7 +2,7 @@
     "manifest_version": 3,
     "name": "訪問済みサイト通知",
     "version": "1.0",
-    "permissions": ["history", "storage"],
+    "permissions": ["history"],
     "host_permissions": ["https://*/*", "http://*/*"],
     "background": {
       "service_worker": "background.js"
